@@ -444,3 +444,37 @@ h1{
     font-size: 8vh;
   }
 }
+
+
+
+/* Media queries dla różnych rozmiarów ekranów */
+@media only screen and (max-width: 600px) {
+  div {
+      font-size: 14px; /* Przykładowe zmniejszenie rozmiaru czcionki na mniejszych ekranach */
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  div {
+      font-size: 12px; /* Dodatkowe zmniejszenie rozmiaru czcionki na jeszcze mniejszych ekranach */
+  }
+}
+
+/* Media queries dla różnych rozmiarów ekranów */
+@media only screen and (max-width: 1200px) {
+  p {
+      font-size: 2rem; /* Zmniejszenie rozmiaru nagłówka na średnich ekranach */
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+      font-size: 1.8rem; /* Dodatkowe zmniejszenie rozmiaru nagłówka na mniejszych ekranach */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+      font-size: 0.9rem; /* Zmniejszenie rozmiaru czcionki dla tekstu na mniejszych ekranach */
+  }
+}
